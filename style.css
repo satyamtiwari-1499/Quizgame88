@@ -8,7 +8,7 @@
     }
 
     body{
-        background: linear-gradient(to right,blue 1px,transparent 1px),
+        background: linear-gradient(to right ,blue 1px,transparent 1px),
         linear-gradient(to bottom,blue 1px,transparent 1px);
         background-size: 80px 80px;
     }
@@ -18,7 +18,7 @@
         width: 300px;
         background-color: rgb(16, 63, 59);
         color: greenyellow;
-        border: 2px solid rgb(219, 162, 162);
+        border: 2px  solid rgb(219, 162, 162);
         border-radius: 50%;
         display: inline;
         position: absolute;
