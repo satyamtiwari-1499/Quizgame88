@@ -77,12 +77,14 @@ let currentQuestion = null;
 
 start.addEventListener("click",function(){
      
+
     var rndm = Math.floor(Math.random()*quizData.length);
 
     currentQuestion = quizData[rndm];
 
     ques.innerText = `${quizData[rndm].question}`;
 
+    
     liElem[0].innerText = `${quizData[rndm].options[0]}`;
     liElem[1].innerText = `${quizData[rndm].options[1]}`;
     liElem[2].innerText = `${quizData[rndm].options[2]}`;
